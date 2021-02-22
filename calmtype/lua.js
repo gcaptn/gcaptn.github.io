@@ -1,7 +1,7 @@
 var editorlua = CodeMirror.fromTextArea(document.getElementById("main-typer"), {
     lineNumbers: true,
     mode: "lua",
-    tabSize: 4,
+    indentUnit: 4,
     theme: "rdark",
     viewportMargin: Infinity,
     lineWrapping: true

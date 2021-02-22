@@ -42,7 +42,7 @@
 	color: #ff738a;
 }
 .cm-s-rdark .cm-variable {
-	color: #8dc4f2;
+	color: none/*#8dc4f2*/;
 }
 .cm-s-rdark .cm-def {
 	color: #FFFFFF;
