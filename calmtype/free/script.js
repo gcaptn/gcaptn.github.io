@@ -1,11 +1,10 @@
 var editorlua = CodeMirror.fromTextArea(document.getElementById("main-typer"), {
-    lineNumbers: true,
-    mode: "lua",
+    lineNumbers: false,
     indentUnit: 4,
     theme: "rdark",
     viewportMargin: Infinity,
     lineWrapping: true
 })
 
-var placeholder = 'local this_is = "the start of a great journey."'
+var placeholder = 'This is the start of a great journey.'
 editorlua.setValue(placeholder)
